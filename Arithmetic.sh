@@ -5,5 +5,5 @@ read a
 echo "enter the 2nd number"
 read b
 
-sum = $(( $a+$b ))
+sum=$(($a+$b))
 echo sum of two number is $sum
