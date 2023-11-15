@@ -17,3 +17,6 @@ echo sum of two number is $sum
 
 sub=$(($a-$b))
 echo sub of two number is $sub
+
+mul=$(($a*$b))
+echo multiplication of two number is $mul
