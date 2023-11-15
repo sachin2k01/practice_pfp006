@@ -30,4 +30,10 @@ case $ch in
 		div=$(($a/$b))
 		echo division of two number is $div
 		;;
+	5)
+		mod=$(($a%$b))
+		echo modulus of two number is $mod
+		;;
+	*)
+		echo enter valid choice
 esac
